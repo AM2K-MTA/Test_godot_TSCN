@@ -1,3 +1,3 @@
 [gd_scene format=3 uid="uid://dyssl35t00v35"]
 
-[node name="Node" type="Node"]
+[node name="Sc_root" type="Node"]
