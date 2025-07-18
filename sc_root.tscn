@@ -2,4 +2,8 @@
 
 [node name="Sc_root" type="Node"]
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="Background" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Background"]
+offset_right = 40.0
+offset_bottom = 40.0
