@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://dyssl35t00v35"]
+[gd_scene load_steps=2 format=3 uid="uid://dyssl35t00v35"]
+
+[ext_resource type="PackedScene" uid="uid://strsod57fj6" path="res://UID/virtual_joystick.tscn" id="1_ypmh2"]
 
 [node name="Sc_root" type="Node"]
 
@@ -8,3 +10,5 @@
 offset_right = 1248.0
 offset_bottom = 640.0
 color = Color(0.113665, 0.113665, 0.113665, 1)
+
+[node name="Virtual Joystick" parent="." instance=ExtResource("1_ypmh2")]
